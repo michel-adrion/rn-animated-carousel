@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/michel-adrion/rn-animated-carousel/compare/v2.6.0...v2.7.0) (2022-06-03)
+
+
+### Features
+
+* add onTouchBegin & onTouchEnd prop ([b2744e6](https://github.com/michel-adrion/rn-animated-carousel/commit/b2744e6776cb6e068fc332d2ecd3e6061be62345))
+
 # 2.6.0 (2022-06-03)
 
 
