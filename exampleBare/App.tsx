@@ -1,6 +1,7 @@
 import React from 'react';
-import Carousel from 'rn-animated-carousel';
-// import Carousel from '../src/Carousel';
+// import Carousel from 'rn-animated-carousel';
+import Carousel from '../src/Carousel';
+// import Carousel from '../lib/commonjs';
 import {SafeAreaView, Text, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
@@ -30,6 +31,12 @@ const App = () => {
               <Text>{index}</Text>
             </View>
           )}
+          onScrollBegin={() => {
+            console.log('onScrollBegin >');
+          }}
+          onScrollEnd={() => {
+            console.log('onScrollEnd >');
+          }}
         />
       </SafeAreaView>
     </GestureHandlerRootView>

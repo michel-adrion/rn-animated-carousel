@@ -214,8 +214,8 @@ const IScrollViewGesture: React.FC<Props> = (props) => {
                 ctx.panOffset = translation.value;
             },
             onActive: (e, ctx) => {
-                onScrollBegin && runOnJS(onScrollBegin)();
                 if (ctx.validStart) {
+                    onScrollBegin && runOnJS(onScrollBegin)();
                     ctx.validStart = false;
                     cancelAnimation(translation);
                 }
