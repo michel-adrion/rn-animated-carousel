@@ -1,6 +1,6 @@
 {
     "name": "rn-animated-carousel",
-    "version": "2.7.0",
+    "version": "2.8.0",
     "description": "Simple carousel component.fully implemented using Reanimated 2.Infinitely scrolling, very smooth.",
     "main": "lib/commonjs/index",
     "types": "lib/typescript/index.d.ts",

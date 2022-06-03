@@ -1,3 +1,11 @@
+# [2.8.0](https://github.com/michel-adrion/rn-animated-carousel/compare/v2.7.0...v2.8.0) (2022-06-03)
+
+
+### Features
+
+* fix onScrollBegin ([4e86218](https://github.com/michel-adrion/rn-animated-carousel/commit/4e862185517bbc2257802984c1885f765dc2fa93))
+* fix reanimated 2.8 issue ([3ff3712](https://github.com/michel-adrion/rn-animated-carousel/commit/3ff371202568aa7cf8cdc879c1d10c651ca74898))
+
 # [2.7.0](https://github.com/michel-adrion/rn-animated-carousel/compare/v2.6.0...v2.7.0) (2022-06-03)
 
 
