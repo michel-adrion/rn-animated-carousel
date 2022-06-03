@@ -1,10 +1,12 @@
 import React from 'react';
-import Carousel from 'react-native-reanimated-carousel';
+// import Carousel from 'rn-animated-carousel';
+import Carousel from '../src/Carousel';
 import {SafeAreaView, Text, useColorScheme} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {Dimensions} from 'react-native';
 import {View} from 'react-native';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 const {width: PAGE_WIDTH} = Dimensions.get('window');
 const App = () => {
@@ -15,20 +17,22 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <Text>111</Text>
-      <Carousel
-        loop
-        width={PAGE_WIDTH}
-        height={PAGE_WIDTH / 2}
-        data={[...new Array(6).keys()]}
-        renderItem={({index}) => (
-          <View key={index}>
-            <Text>111</Text>
-          </View>
-        )}
-      />
-    </SafeAreaView>
+    <GestureHandlerRootView style={{flex: 1}}>
+      <SafeAreaView style={backgroundStyle}>
+        <Text>111</Text>
+        <Carousel
+          loop
+          width={PAGE_WIDTH}
+          height={PAGE_WIDTH / 2}
+          data={[...new Array(6).keys()]}
+          renderItem={({index}) => (
+            <View key={index}>
+              <Text>{index}</Text>
+            </View>
+          )}
+        />
+      </SafeAreaView>
+    </GestureHandlerRootView>
   );
 };
 

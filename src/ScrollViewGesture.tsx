@@ -209,11 +209,12 @@ const IScrollViewGesture: React.FC<Props> = (props) => {
             onStart: (_, ctx) => {
                 touching.value = true;
                 ctx.validStart = true;
-                onScrollBegin && runOnJS(onScrollBegin)();
+                // onScrollBegin && runOnJS(onScrollBegin)();
                 ctx.max = (maxPage - 1) * size;
                 ctx.panOffset = translation.value;
             },
             onActive: (e, ctx) => {
+                onScrollBegin && runOnJS(onScrollBegin)();
                 if (ctx.validStart) {
                     ctx.validStart = false;
                     cancelAnimation(translation);

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, Text } from 'react-native-ui-lib';
-import Carousel from 'react-native-reanimated-carousel';
+import Carousel from 'rn-animated-carousel';
 import { window } from '../constants';
 import Animated, { Easing } from 'react-native-reanimated';
 

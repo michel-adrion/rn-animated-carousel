@@ -8,7 +8,7 @@ import Animated, {
     useSharedValue,
     withTiming,
 } from 'react-native-reanimated';
-import Carousel, { ICarouselInstance } from 'react-native-reanimated-carousel';
+import Carousel, { ICarouselInstance } from 'rn-animated-carousel';
 import { Colors, View } from 'react-native-ui-lib';
 import SButton from '../components/SButton';
 import { ElementsText, window } from '../constants';

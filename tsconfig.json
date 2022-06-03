@@ -3,7 +3,7 @@
         "baseUrl": "./",
         "paths": {
             "@/utils/*": ["./src/utils/*"],
-            "react-native-reanimated-carousel": ["./src/index"]
+            "rn-animated-carousel": ["./src/index"]
         },
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,

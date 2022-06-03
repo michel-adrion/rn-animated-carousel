@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { ScrollView, Text, View } from 'react-native';
-import Carousel from 'react-native-reanimated-carousel';
+import Carousel from 'rn-animated-carousel';
 import type { ICarouselInstance } from '../../../src/types';
 import SButton from '../components/SButton';
 import { window } from '../constants';

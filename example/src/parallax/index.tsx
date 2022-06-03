@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View } from 'react-native';
-import Carousel from 'react-native-reanimated-carousel';
+import Carousel from 'rn-animated-carousel';
 import Animated, {
     Extrapolate,
     interpolate,

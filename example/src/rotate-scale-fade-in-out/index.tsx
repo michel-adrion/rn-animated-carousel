@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View } from 'react-native';
 import { interpolate } from 'react-native-reanimated';
-import Carousel from 'react-native-reanimated-carousel';
+import Carousel from 'rn-animated-carousel';
 import type { TAnimationStyle } from '../../../src/layouts/BaseLayout';
 import { SBItem } from '../components/SBItem';
 import { ElementsText, window } from '../constants';
