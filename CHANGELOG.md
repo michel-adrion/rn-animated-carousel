@@ -1,3 +1,11 @@
+# 2.6.0 (2022-06-03)
+
+
+### Features
+
+* init repo ([f3d794e](https://github.com/michel-adrion/rn-animated-carousel/commit/f3d794e90e7f66ae820d827705e2118984c0ac22))
+* init-repo ([6511568](https://github.com/michel-adrion/rn-animated-carousel/commit/6511568abfcfe6e3272cb1d8b48e5ee213d4d413))
+
 ## [2.5.1](https://github.com/dohooo/react-native-reanimated-carousel/compare/v2.5.0...v2.5.1) (2022-06-01)
 
 # [2.5.0](https://github.com/dohooo/react-native-reanimated-carousel/compare/v2.4.0...v2.5.0) (2022-05-29)
